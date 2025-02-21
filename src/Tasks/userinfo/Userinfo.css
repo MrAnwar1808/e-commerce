@@ -1,0 +1,51 @@
+
+
+.parent {
+    background-color: #83182a;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .parent h1 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .child {
+    background-color: #c4b669;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .child p {
+    font-size: 1.5rem;
+    
+  }
+  
+ 
+  
+ 
+  .grand {
+   
+    padding: 15px;
+    border-radius: 8px;
+   
+ 
+  }
+  
+  .grand p {
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(8, 82, 57);
+    padding: 10px;
+  }
+  
+ 

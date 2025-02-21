@@ -1,0 +1,43 @@
+
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header .logo img {
+    height: 50px;
+  }
+  
+  .header .search-bar input {
+    padding: 5px;
+    height: auto;
+    width: 250px;
+  }
+  .btn {
+     padding: 5px;
+  }
+
+  .btn:hover{
+    background-color: aquamarine;
+  }
+  
+  .header .nav-links a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header .nav-links a:hover {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+
+  }
+  

@@ -1,0 +1,27 @@
+
+
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: rgb(207, 193, 193);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .filter-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filter-category li {
+    margin-bottom: 10px;
+  }
+  
+  .filter-price input {
+    width: 100%;
+  }
+  

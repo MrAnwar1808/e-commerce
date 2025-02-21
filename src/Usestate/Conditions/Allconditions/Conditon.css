@@ -1,0 +1,18 @@
+
+.ifelse{
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+.ternary{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+.logic{
+    background-color: rgb(192, 168, 29);
+    text-align: center;
+    padding: 20px;
+}

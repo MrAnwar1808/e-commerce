@@ -1,0 +1,47 @@
+
+
+.parentbook {
+    background-color: #521111;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .parentbook h1 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+
+  .childbook {
+    background-color: #cbd0db;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  
+  .childbook p {
+    font-size: 24px;
+  }
+  
+
+  .grandchildbook {
+    background-color: #a8561f;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .grandchildbook p {
+    font-size: 1.1rem;
+    color: white;
+
+  }
+  

@@ -1,0 +1,65 @@
+
+
+.parenttask {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #55889c;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parenttask h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.childtask {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.childtask p {
+    margin: 5px 0;
+}
+
+
+.childtask p strong {
+    font-weight: bold;
+}
+
+
+.grandtask {
+    text-align: right;
+    font-size: 1.2em;
+    color: #4CAF50;  
+    font-weight: bold;
+}
+
+.grandtask p {
+    margin: 0;
+}
+
+
+.grandtask p {
+    text-transform: capitalize;
+}
+
+
+.grandtask p:nth-child(1):contains('High') {
+    color: red; 
+}
+
+.grandtask p:nth-child(2):contains('Medium') {
+    color: orange; 
+}
+
+.grandtask p:nth-child(3):contains('Low') {
+    color: green; 
+}

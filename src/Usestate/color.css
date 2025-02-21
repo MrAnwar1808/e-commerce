@@ -1,0 +1,25 @@
+
+
+.color-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgb(236, 115, 45);
+    border-radius: 8px;
+    
+    
+  }
+  
+  .btn {
+    background-color: red; 
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  

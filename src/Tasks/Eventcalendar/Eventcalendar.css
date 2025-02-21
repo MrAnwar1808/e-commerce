@@ -1,0 +1,73 @@
+
+
+
+.eventparent {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #912a83;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.eventparent h1 {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.eventchild {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.eventchild p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.eventchild p strong {
+    font-weight: bold;
+}
+
+
+.eventchild .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.eventchild .btn:hover {
+    background-color: #45a049;
+}
+
+
+.eventgrandchild {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #2196F3; 
+    margin-top: 10px;
+}
+
+.eventgrandchild p {
+    margin: 0;
+}
+
+
+.eventgrandchild p:nth-child(1):contains('Hyderabad') {
+    color: #ff5722; 
+}
+
+.eventgrandchild p:nth-child(1):contains('Kodad') {
+    color: #3f51b5; 
+}

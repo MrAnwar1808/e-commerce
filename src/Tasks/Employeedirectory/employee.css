@@ -1,0 +1,63 @@
+
+
+
+.parentemployee {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #b2bb38;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parentemployee h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.childemployee {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.childemployee p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+
+.childemployee p strong {
+    font-weight: bold;
+}
+
+
+.grandchildemployee {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4CAF50; 
+    margin-top: 10px;
+}
+
+.grandchildemployee p {
+    margin: 0;
+}
+
+
+.grandchildemployee p {
+    text-transform: capitalize;
+}
+
+
+.grandchildemployee p:nth-child(1):contains('HR') {
+    color: blue; 
+}
+
+.grandchildemployee p:nth-child(2):contains('IT') {
+    color: #ff5722; 
+}

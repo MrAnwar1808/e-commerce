@@ -1,0 +1,47 @@
+
+
+
+.parentteam {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #c25858;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.parentteam h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Styling for Childteam */
+.Childteam {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Childteam p {
+    margin: 5px 0;
+}
+
+/* Styling for Player's name and position */
+.Childteam p strong {
+    font-weight: bold;
+}
+
+/* Styling for Grandchildteam (Team Number) */
+.grandchildteam {
+    text-align: right;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+.grandchildteam p {
+    margin: 0;
+}

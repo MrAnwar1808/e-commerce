@@ -1,0 +1,55 @@
+
+.grades {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: #db5c29;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.grades h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.grades ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.grades li {
+    background-color: #aea7b3;
+    padding: 35px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+
+.grades li span {
+    font-weight: bold;
+}
+
+
+/* .grades li {
+    display: flex;
+   
+    align-items: center;
+} */
+
+.grades li .average {
+    font-weight: bold;
+    color: #2196F3; 
+}
+
+
+.grades li:hover {
+    background-color: #f0f8ff;
+    cursor: pointer;
+}

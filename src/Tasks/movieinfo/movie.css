@@ -1,0 +1,91 @@
+
+
+
+.movieparent {
+   
+    gap: 20px;                   
+    padding: 20px;               
+    background-color: #064f5c;   
+    width: 100%;                  
+    box-sizing: border-box;       
+}
+
+
+.movie-card {
+    background-color: #ffffff;       
+    border-radius: 10px;             
+    width: 250px;                   
+    padding: 15px;                    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;                     
+    align-items: center;             
+    justify-content: space-between; 
+    width: 100%;                 
+    margin-bottom: 20px;  
+}             
+
+
+.movie-card img {
+    width: 250px;              
+    height: 200px;          
+    border-radius: 8px;       
+    margin-right: 15px;      
+}
+
+
+.movie-card p {
+    font-size: 1rem;        
+    color: black;          
+    margin-bottom: 10px;     
+}
+
+.movie-card p strong {
+    color: #d48d21;          
+}
+
+
+.movie-card .btn {
+    background-color: #007BFF; 
+    color: white;             
+    padding: 10px 15px;        
+    border: none;           
+    border-radius: 5px;       
+    cursor: pointer;        
+    font-size: 1rem;           
+    transition: background-color 0.3s ease; 
+}
+
+.movie-card .btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.moviegrandchild {
+    background-color: #a9dee6;
+    border-radius: 8px;        
+    padding: 20px;          
+       
+}
+
+.moviegrandchild p {
+    font-size: 1rem;           
+    font-weight: bold;       
+    color: #333;              
+    margin-bottom: 5px;      
+}
+
+.moviegrandchild ul {
+    list-style-type: none;     
+    padding: 0;               
+}
+
+.moviegrandchild li {
+    font-size: 1rem;         
+    color: #555;         
+    margin: 5px 0;           
+}
+
+.moviegrandchild li::before {
+    content: "• ";              
+    color: #007BFF;           
+}
